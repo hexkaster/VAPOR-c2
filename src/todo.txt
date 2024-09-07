@@ -1,0 +1,12 @@
+
+1. Seria interessante fazer schedule tasks direto pela CLI (? ou nao? mature a ideia!)
+2. When inside a session, type ip to return ip, mac to return mac
+3. Exfiltracao de dados (python serv? http?)
+4. Comunicacao fora da mema rede, entre 2 computadores, etc. (feito?) e pra WINDOWS tbm
+5. ADICIONAR CORES
+
+Encryption, melhor depender de RSA do que quebrar a cabeça com SSL and shit:
+    Generate a public/private key pair using RSA. You can do this on any unix machine using openssl: openssl genrsa -out rsa.private 2048
+    Distribute the public key as hardcoded in your client.
+    When the client logs in, the client generates a private shared key (also using openssl, or another well known encryption library) and encrypts it using the public key.
+    all data between client and server should be encrypted with the new shared key for the length of the session.
