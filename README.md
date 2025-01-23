@@ -1,5 +1,36 @@
-# Oxyc
+# V.A.P.O.R. 
 
+**V**ysache's **A**utonomous **P**ropagation **O**bfuscation **R**outines  
+*"Let your infrastructure quietly replicate itself."*
+
+![Rust](https://img.shields.io/badge/Rust-1.67+-informational?logo=rust)
+![License](https://img.shields.io/badge/License-GPL_3.0-only-blue)
+![Version](https://img.shields.io/badge/Version-0.1.0_Alpha-cyan)
+
+A stealth-first C2 framework where infrastructure replication meets Rust-powered opsec.  
+
+---
+
+## Features ✨
+- **Ephemeral Propagation**: Leave no disk artifacts through memory-resident agents
+- **XOR Obfuscation Routines**: On-the-fly payload mutation to evade static analysis
+- **Autonomous Replication**: Self-deploying agents via trusted process injection
+- **TLS-Encrypted C2 Channels**: Mimics legitimate HTTPS traffic patterns
+- **Plausible Deniability Architecture**: Agents self-terminate on forensic inspection
+
+---
+
+## Quick Start 🚀
+
+### Installation
+```bash
+# Clone repo
+git clone https://github.com/yourhandle/vapor-c2.git
+cd vapor-c2
+
+# Build with Cargo (nightly required)
+rustup override set nightly
+cargo build --release --features "obfuscate propagate"
 build server and client
 
 
