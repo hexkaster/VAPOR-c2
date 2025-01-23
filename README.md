@@ -24,17 +24,11 @@ A stealth-first C2 framework where infrastructure replication meets Rust-powered
 ### Installation
 ```bash
 # Clone repo
-git clone https://github.com/yourhandle/vapor-c2.git
+git clone https://github.com/hexkaster/vapor-c2.git
 cd vapor-c2
 
-# Build with Cargo (nightly required)
-rustup override set nightly
-cargo build --release --features "obfuscate propagate"
-build server and client
-
-
-```sh
-cargo build
+# Build with Cargo 
+cargo build --release
 ```
 
 run server:
