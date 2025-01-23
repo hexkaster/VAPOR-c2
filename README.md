@@ -4,7 +4,6 @@
 *"Let your infrastructure quietly replicate itself."*
 
 ![Rust](https://img.shields.io/badge/Rust-1.67+-informational?logo=rust)
-![License](https://img.shields.io/badge/License-GPL_3.0-only-blue)
 ![Version](https://img.shields.io/badge/Version-0.1.0_Alpha-cyan)
 
 A stealth-first C2 framework where infrastructure replication meets Rust-powered opsec.  
